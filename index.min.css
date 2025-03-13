@@ -19351,9 +19351,10 @@ select.select {
 
 .logo-wrapper .slogan .slogan-small {
     font-size: .75em;
-    color: green;
+    color: blue;
     line-height: 1.6;
-    font-weight: 700
+    font-weight: 700;
+    font-family: 'Vazirmatn', 'IRANSans', 'Tahoma', sans-serif;
 }
 
 .logo-wrapper .slogan .fi-logo-slogan {
