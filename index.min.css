@@ -5966,6 +5966,15 @@ button .swiper-pagination-bullet {
     cursor: move
 }
 
+@font-face
+{
+    font-family: 'Iransans';
+    src: url("IRANSansWeb.eot?v=1.1.0");
+    src: url("IRANSansWeb.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("IRANSansWeb.woff?v=1.1.0") format("woff"), url("IRANSansWeb.woff?v=1.1.0") format("woff"), url("IRANSansWeb.ttf?v=1.1.0") format("truetype"), url("IRANSans-web.svg?v=1.1.0#Light") format("svg");
+    font-weight: 300;
+    font-style: normal;
+}
+
 @font-face {
     font-family: Yekan;
     src: url(Yekan-Regular.eot);
@@ -13668,7 +13677,6 @@ body {
     font-size: 1rem;
     font-family: Yekan,YekanNumbers,EastExtra,sans-serif;
     overflow-x: hidden;
-    unicode-bidi: embed !important;
 }
 
 *,:after,:before {
@@ -19351,10 +19359,9 @@ select.select {
 
 .logo-wrapper .slogan .slogan-small {
     font-size: .75em;
-    color: blue;
+    color: yellow;
     line-height: 1.6;
-    font-weight: 700;
-    font-family: 'Vazirmatn', 'IRANSans', 'Tahoma', sans-serif;
+    font-weight: 700;    
 }
 
 .logo-wrapper .slogan .fi-logo-slogan {
