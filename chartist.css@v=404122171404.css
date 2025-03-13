@@ -1,0 +1,1066 @@
+.ct-label {
+    fill: rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 0.75rem;
+    line-height: 1;
+}
+
+
+.ct-chart-line .ct-label,
+.ct-chart-bar .ct-label {
+    display: block;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.ct-chart-pie .ct-label,
+.ct-chart-donut .ct-label {
+    dominant-baseline: central;
+}
+
+.ct-label.ct-horizontal.ct-start {
+    -webkit-box-align: flex-end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+    -webkit-box-pack: flex-start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    text-anchor: start;
+}
+
+.ct-label.ct-horizontal.ct-end {
+    -webkit-box-align: flex-start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+    -webkit-box-pack: flex-start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    color: black;
+    font-size: larger;
+    padding: 5%;
+    text-anchor: start;
+}
+
+.ct-label.ct-vertical.ct-start {
+    -webkit-box-align: flex-end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+    -webkit-box-pack: flex-end;
+    /*-webkit-justify-content: flex-end;*/
+    -ms-flex-pack: flex-end;
+    /*justify-content: flex-end;*/
+    text-align: right;
+    text-anchor: end;
+    color: black;
+    font-size: larger;
+}
+
+.ct-label.ct-vertical.ct-end {
+    -webkit-box-align: flex-end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+    -webkit-box-pack: flex-start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    text-anchor: start;
+}
+
+.ct-chart-bar .ct-label.ct-horizontal.ct-start {
+    -webkit-box-align: flex-end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    text-anchor: start;
+}
+
+.ct-chart-bar .ct-label.ct-horizontal.ct-end {
+    -webkit-box-align: flex-start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    text-anchor: start;
+    transform: rotate(-60deg) translateX(-12px) translateY(0px);
+}
+
+.ct-label.ct-horizontal.ct-end {
+    transform: rotate(-60deg) translateX(-12px) translateY(0px);
+
+}
+
+.ct-chart-bar.ct-horizontal-bars .ct-label.ct-horizontal.ct-start {
+    -webkit-box-align: flex-end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+    -webkit-box-pack: flex-start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    text-anchor: start;
+}
+
+.ct-chart-bar.ct-horizontal-bars .ct-label.ct-horizontal.ct-end {
+    -webkit-box-align: flex-start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+    -webkit-box-pack: flex-start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    text-anchor: start;
+}
+
+.ct-chart-bar.ct-horizontal-bars .ct-label.ct-vertical.ct-start {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: flex-end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: flex-end;
+    justify-content: flex-end;
+    text-align: right;
+    text-anchor: end;
+}
+
+.ct-chart-bar.ct-horizontal-bars .ct-label.ct-vertical.ct-end {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: flex-start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    text-anchor: end;
+}
+
+.ct-grid {
+    stroke: rgba(0, 0, 0, 0.2);
+    stroke-width: 1px;
+    stroke-dasharray: 2px;
+}
+
+.ct-grid-background {
+    fill: none;
+}
+
+.ct-point {
+    stroke-width: 10px;
+    stroke-linecap: round;
+}
+
+.ct-line {
+    fill: none;
+    stroke-width: 4px;
+}
+
+.ct-area {
+    stroke: none;
+    fill-opacity: 0.1;
+}
+
+.ct-bar {
+    fill: none;
+    stroke-width: 10px;
+}
+
+.ct-slice-donut {
+    fill: none;
+    stroke-width: 60px;
+}
+
+.chart-legend {
+    width: 20px;
+    vertical-align: middle;
+    height: 20px;
+    border: 2px solid gray;
+}
+
+.chart-legend-parent {
+    display: inline-block;
+    position: relative;
+    margin: 5px 10px;
+}
+
+.chart-legend-parent div {
+    display: inline-block;
+    margin: 0 5px
+}
+
+.legend-1 {
+    background-color: #ed1c24;
+}
+
+.legend-2 {
+    background-color: #616161;
+}
+
+.legend-3 {
+    background-color: #6d36bf;
+}
+
+.legend-4 {
+    background-color: #f7941d;
+}
+
+.legend-5 {
+    background-color: #18cc75;
+}
+
+.legend-6 {
+    background-color: #ffffff;
+}
+
+.legend-7 {
+    background-color: #000000;
+}
+
+.legend-8 {
+    background-color: #c9b4ea;
+}
+
+.legend-9 {
+    background-color: #0070cc;
+}
+
+.legend-10 {
+    background-color: #dfdfdf;
+}
+
+.legend-11 {
+    background-color: #eacf7d;
+}
+
+.legend-12 {
+    background-color: #86797d;
+}
+
+.legend-13 {
+    background-color: #b2c326;
+}
+
+.legend-14 {
+    background-color: #6188e2;
+}
+
+.legend-15 {
+    background-color: #a748ca;
+}
+
+.legend-16 {
+    background-color: #fe6060;
+}
+
+.legend-17 {
+    background-color: #dddddd;
+}
+
+.legend-18 {
+    background-color: #b987ff;
+}
+
+.legend-19 {
+    background-color: #ffbe08;
+}
+
+.legend-20 {
+    background-color: #81ffab;
+}
+
+.legend-21 {
+    background-color: #dafcff;
+}
+
+.legend-22 {
+    background-color: #5f5f5f;
+}
+
+.legend-23 {
+    background-color: #dbc5ff;
+}
+
+.legend-24 {
+    background-color: #04ccfa;
+}
+
+.legend-25 {
+    background-color: #fff30a;
+}
+
+.legend-26 {
+    background-color: #ffe389;
+}
+
+.depo-li-dc .legend-a {
+    background-color: #fbc02d;
+}
+
+.depo-li-dc .legend-b {
+    background-color: #33691e;
+}
+
+.depo-li-dc .legend-c {
+    background-color: #c41411;
+}
+
+.depo-li-dc .legend-d {
+    background-color: #0277bd;
+}
+
+/*.ct-series-a .ct-point, .ct-series-a .ct-line, .ct-series-a .ct-bar, .ct-series-a .ct-slice-donut {*/
+/*stroke: #d70206;*/
+/*}*/
+.ct-series-a .ct-point, .ct-series-a .ct-line, .ct-series-a .ct-bar, .ct-series-a .ct-slice-donut {
+    stroke: #ed1c24;
+}
+
+.ct-series-a .ct-slice-pie, .ct-series-a .ct-slice-donut-solid, .ct-series-a .ct-area {
+    fill: #ed1c24;
+}
+
+.ct-series-b .ct-point, .ct-series-b .ct-line, .ct-series-b .ct-bar, .ct-series-b .ct-slice-donut {
+    stroke: #616161;
+}
+
+/*}.ct-series-b .ct-point, .ct-series-b .ct-line, .ct-series-b .ct-bar, .ct-series-b .ct-slice-donut {*/
+/*stroke: #f05b4f;*/
+/*}*/
+
+.ct-series-b .ct-slice-pie, .ct-series-b .ct-slice-donut-solid, .ct-series-b .ct-area {
+    fill: #616161;
+}
+
+/*.ct-series-c .ct-point, .ct-series-c .ct-line, .ct-series-c .ct-bar, .ct-series-c .ct-slice-donut {*/
+/*stroke: #f4c63d;*/
+/*}*/
+.ct-series-c .ct-point, .ct-series-c .ct-line, .ct-series-c .ct-bar, .ct-series-c .ct-slice-donut {
+    stroke: #6d36bf;
+}
+
+.ct-series-c .ct-slice-pie, .ct-series-c .ct-slice-donut-solid, .ct-series-c .ct-area {
+    fill: #6d36bf;
+}
+
+/*.ct-series-c .ct-slice-pie, .ct-series-c .ct-slice-donut-solid, .ct-series-c .ct-area {*/
+/*fill: #c41411;*/
+/*}*/
+
+/*.ct-series-d .ct-point, .ct-series-d .ct-line, .ct-series-d .ct-bar, .ct-series-d .ct-slice-donut {*/
+/*stroke: #d17905;*/
+/*}*/
+.ct-series-d .ct-point, .ct-series-d .ct-line, .ct-series-d .ct-bar, .ct-series-d .ct-slice-donut {
+    stroke: #f7941d;
+}
+
+.ct-series-d .ct-slice-pie, .ct-series-d .ct-slice-donut-solid, .ct-series-d .ct-area {
+    fill: #f7941d;
+}
+
+.ct-series-e .ct-point, .ct-series-e .ct-line, .ct-series-e .ct-bar, .ct-series-e .ct-slice-donut {
+    stroke: #18cc75;
+}
+
+.ct-series-e .ct-slice-pie, .ct-series-e .ct-slice-donut-solid, .ct-series-e .ct-area {
+    fill: #18cc75;
+}
+
+.ct-series-f .ct-point, .ct-series-f .ct-line, .ct-series-f .ct-bar, .ct-series-f .ct-slice-donut {
+    stroke: #ffffff;
+}
+
+.ct-series-f .ct-slice-pie, .ct-series-f .ct-slice-donut-solid, .ct-series-f .ct-area {
+    fill: #ffffff;
+}
+
+.ct-series-g .ct-point, .ct-series-g .ct-line, .ct-series-g .ct-bar, .ct-series-g .ct-slice-donut {
+    stroke: #000000;
+}
+
+.ct-series-g .ct-slice-pie, .ct-series-g .ct-slice-donut-solid, .ct-series-g .ct-area {
+    fill: #000000;
+}
+
+.ct-series-h .ct-point, .ct-series-h .ct-line, .ct-series-h .ct-bar, .ct-series-h .ct-slice-donut {
+    stroke: #c9b4ea;
+}
+
+.ct-series-h .ct-slice-pie, .ct-series-h .ct-slice-donut-solid, .ct-series-h .ct-area {
+    fill: #c9b4ea;
+}
+
+.ct-series-i .ct-point, .ct-series-i .ct-line, .ct-series-i .ct-bar, .ct-series-i .ct-slice-donut {
+    stroke: #0070cc;
+}
+
+.ct-series-i .ct-slice-pie, .ct-series-i .ct-slice-donut-solid, .ct-series-i .ct-area {
+    fill: #0070cc;
+}
+
+.ct-series-j .ct-point, .ct-series-j .ct-line, .ct-series-j .ct-bar, .ct-series-j .ct-slice-donut {
+    stroke: #dfdfdf;
+}
+
+.ct-series-j .ct-slice-pie, .ct-series-j .ct-slice-donut-solid, .ct-series-j .ct-area {
+    fill: #dfdfdf;
+}
+
+.ct-series-k .ct-point, .ct-series-k .ct-line, .ct-series-k .ct-bar, .ct-series-k .ct-slice-donut {
+    stroke: #eacf7d;
+}
+
+.ct-series-k .ct-slice-pie, .ct-series-k .ct-slice-donut-solid, .ct-series-k .ct-area {
+    fill: #eacf7d;
+}
+
+.ct-series-l .ct-point, .ct-series-l .ct-line, .ct-series-l .ct-bar, .ct-series-l .ct-slice-donut {
+    stroke: #86797d;
+}
+
+.ct-series-l .ct-slice-pie, .ct-series-l .ct-slice-donut-solid, .ct-series-l .ct-area {
+    fill: #86797d;
+}
+
+.ct-series-m .ct-point, .ct-series-m .ct-line, .ct-series-m .ct-bar, .ct-series-m .ct-slice-donut {
+    stroke: #b2c326;
+}
+
+.ct-series-m .ct-slice-pie, .ct-series-m .ct-slice-donut-solid, .ct-series-m .ct-area {
+    fill: #b2c326;
+}
+
+.ct-series-n .ct-point, .ct-series-n .ct-line, .ct-series-n .ct-bar, .ct-series-n .ct-slice-donut {
+    stroke: #6188e2;
+}
+
+.ct-series-n .ct-slice-pie, .ct-series-n .ct-slice-donut-solid, .ct-series-n .ct-area {
+    fill: #6188e2;
+}
+
+.ct-series-o .ct-point, .ct-series-o .ct-line, .ct-series-o .ct-bar, .ct-series-o .ct-slice-donut {
+    stroke: #a748ca;
+}
+
+.ct-series-o .ct-slice-pie, .ct-series-o .ct-slice-donut-solid, .ct-series-o .ct-area {
+    fill: #a748ca;
+}
+
+.ct-series-p .ct-point, .ct-series-p .ct-line, .ct-series-p .ct-bar, .ct-series-p .ct-slice-donut {
+    stroke: #fe6060;
+}
+
+.ct-series-p .ct-slice-pie, .ct-series-p .ct-slice-donut-solid, .ct-series-p .ct-area {
+    fill: #fe6060;
+}
+
+.ct-series-q .ct-point, .ct-series-q .ct-line, .ct-series-q .ct-bar, .ct-series-q .ct-slice-donut {
+    stroke: #dddddd;
+}
+
+.ct-series-q .ct-slice-pie, .ct-series-q .ct-slice-donut-solid, .ct-series-q .ct-area {
+    fill: #dddddd;
+}
+
+
+.ct-series-r .ct-point, .ct-series-r .ct-line, .ct-series-r .ct-bar, .ct-series-r .ct-slice-donut {
+    stroke: #b987ff;
+}
+
+.ct-series-r .ct-slice-pie, .ct-series-r .ct-slice-donut-solid, .ct-series-r .ct-area {
+    fill: #b987ff;
+}
+
+.ct-series-s .ct-point, .ct-series-s .ct-line, .ct-series-s .ct-bar, .ct-series-s .ct-slice-donut {
+    stroke: #ffbe08;
+}
+
+.ct-series-s .ct-slice-pie, .ct-series-s .ct-slice-donut-solid, .ct-series-s .ct-area {
+    fill: #ffbe08;
+}
+
+.ct-series-t .ct-point, .ct-series-t .ct-line, .ct-series-t .ct-bar, .ct-series-t .ct-slice-donut {
+    stroke: #81ffab;
+}
+
+.ct-series-t .ct-slice-pie, .ct-series-t .ct-slice-donut-solid, .ct-series-e .ct-area {
+    fill: #81ffab;
+}
+
+.ct-series-u .ct-point, .ct-series-u .ct-line, .ct-series-u .ct-bar, .ct-series-u .ct-slice-donut {
+    stroke: #dafcff;
+}
+
+.ct-series-u .ct-slice-pie, .ct-series-u .ct-slice-donut-solid, .ct-series-u .ct-area {
+    fill: #dafcff;
+}
+
+.ct-series-v .ct-point, .ct-series-v .ct-line, .ct-series-v .ct-bar, .ct-series-v .ct-slice-donut {
+    stroke: #5f5f5f;
+}
+
+.ct-series-v .ct-slice-pie, .ct-series-v .ct-slice-donut-solid, .ct-series-v .ct-area {
+    fill: #5f5f5f;
+}
+
+.ct-series-w .ct-point, .ct-series-w .ct-line, .ct-series-w .ct-bar, .ct-series-w .ct-slice-donut {
+    stroke: #dbc5ff;
+}
+
+.ct-series-w .ct-slice-pie, .ct-series-w .ct-slice-donut-solid, .ct-series-w .ct-area {
+    fill: #dbc5ff;
+}
+
+.ct-series-x .ct-point, .ct-series-x .ct-line, .ct-series-x .ct-bar, .ct-series-x .ct-slice-donut {
+    stroke: #04ccfa;
+}
+
+.ct-series-x .ct-slice-pie, .ct-series-x .ct-slice-donut-solid, .ct-series-x .ct-area {
+    fill: #04ccfa;
+}
+
+.ct-series-y .ct-point, .ct-series-y .ct-line, .ct-series-y .ct-bar, .ct-series-y .ct-slice-donut {
+    stroke: #fff30a;
+}
+
+.ct-series-y .ct-slice-pie, .ct-series-y .ct-slice-donut-solid, .ct-series-y .ct-area {
+    fill: #fff30a;
+}
+
+.ct-series-z .ct-point, .ct-series-z .ct-line, .ct-series-z .ct-bar, .ct-series-z .ct-slice-donut {
+    stroke: #ffe389;
+}
+
+.ct-series-z .ct-slice-pie, .ct-series-z .ct-slice-donut-solid, .ct-series-z .ct-area {
+    fill: #ffe389;
+}
+
+
+.ct-square {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.ct-square:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 100%;
+}
+
+.ct-square:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ct-square > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ct-minor-second {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.ct-minor-second:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 93.75%;
+}
+
+.ct-minor-second:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ct-minor-second > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ct-major-second {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.ct-major-second:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 88.8888888889%;
+}
+
+.ct-major-second:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ct-major-second > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ct-minor-third {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.ct-minor-third:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 83.3333333333%;
+}
+
+.ct-minor-third:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ct-minor-third > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ct-major-third {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.ct-major-third:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 80%;
+}
+
+.ct-major-third:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ct-major-third > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ct-perfect-fourth {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.ct-perfect-fourth:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 75%;
+}
+
+.ct-perfect-fourth:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ct-perfect-fourth > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ct-perfect-fifth {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.ct-perfect-fifth:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 66.6666666667%;
+}
+
+.ct-perfect-fifth:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ct-perfect-fifth > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ct-minor-sixth {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.ct-minor-sixth:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 62.5%;
+}
+
+.ct-minor-sixth:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ct-minor-sixth > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ct-golden-section {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.ct-golden-section:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 61.804697157%;
+}
+
+.ct-golden-section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ct-golden-section > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ct-major-sixth {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.ct-major-sixth:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 60%;
+}
+
+.ct-major-sixth:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ct-major-sixth > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ct-minor-seventh {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.ct-minor-seventh:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.ct-minor-seventh:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ct-minor-seventh > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ct-major-seventh {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.ct-major-seventh:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 53.3333333333%;
+}
+
+.ct-major-seventh:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ct-major-seventh > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ct-octave {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.ct-octave:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 50%;
+}
+
+.ct-octave:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ct-octave > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ct-major-tenth {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.ct-major-tenth:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 40%;
+}
+
+.ct-major-tenth:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ct-major-tenth > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ct-major-eleventh {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.ct-major-eleventh:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 37.5%;
+}
+
+.ct-major-eleventh:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ct-major-eleventh > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ct-major-twelfth {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.ct-major-twelfth:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 33.3333333333%;
+}
+
+.ct-major-twelfth:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ct-major-twelfth > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ct-double-octave {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.ct-double-octave:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 25%;
+}
+
+.ct-double-octave:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ct-double-octave > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ct-labels {
+    color: black !important;
+}
+
+.svg-holder {
+    width: 100% !important;
+    overflow: visible;
+    margin: auto;
+    padding: 50px;
+    border: 1px solid;
+
+}
+
+.svg-holder svg {
+    overflow: visible !important;
+
+}
+
+.ct-label.ct-vertical.ct-start {
+    padding-top: 40px;
+}
+
+.ct-chart-bar .ct-end.ct-horizontal.ct-label {
+    fill: black;
+    /*transform: rotate(-60deg) translateX(-12px) translateY(0px);*/
+}

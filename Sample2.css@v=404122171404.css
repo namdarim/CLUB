@@ -1,0 +1,102 @@
+.buzz {
+    animation: none !important;
+    transform: none !important;
+}
+
+#lg-form {
+    margin-top: 2.5rem;
+}
+
+/*.ripple {*/
+    /*position: relative;*/
+    /*overflow: hidden;*/
+    /*transform: translate3d(0, 0, 0);*/
+/*}*/
+/*.ripple:after {*/
+    /*content: "";*/
+    /*display: block;*/
+    /*position: absolute;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*background-image: radial-gradient(circle, #e21515 10%, transparent 10.01%);*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: 50%;*/
+    /*transform: scale(10, 10);*/
+    /*opacity: 0;*/
+    /*transition: transform .5s, opacity 1s;*/
+/*}*/
+/*.ripple:active:after {*/
+    /*transform: scale(0, 0);*/
+    /*opacity: 1;*/
+    /*transition: 0s;*/
+/*}*/
+
+/*-------------------------------------------------new---------------------------------------------*/
+#inbox-user .nav-tabs .nav-item{
+    max-width: 150px;
+    width: 100%;
+    position: relative
+}
+#inbox-user .nav-tabs .nav-item .message-number {
+    position: absolute;
+    left: 6px;
+    background: #e7e7e7;
+    top: 6px;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+
+#inbox-user .nav-tabs .nav-link.active  .message-number{
+    background-color: #ffc000;
+}
+.archives-card {
+    width: 100%;
+   /* max-width: 300px;*/
+    padding: 0;
+    /*height: 306px;*/
+    border-radius: 3px;
+    position: relative;
+    border:1px solid #dddddd;
+}
+.archives-card .top-box{
+    height:118px;
+    background-color:#f7f7f7;
+    border-bottom:1px solid #dddddd;
+    text-align: center;
+
+}
+.archives-card .bottom-box{
+    height: 188px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+
+
+}
+.archives-card .bottom-box div{
+    margin-bottom: 10px;
+    width: 150px;
+}
+.archives-card .fa-icon-archive{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 27px;
+    color: #58595b;
+}
+.archives-card .fa-icon-box {
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 40px;
+}
+.archives-card-title{
+    margin-top:9px;
+    color: #546272;
+    font-weight: 600;
+}

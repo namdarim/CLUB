@@ -1,0 +1,99 @@
+document.getElementById('app').addEventListener('forceUpdate', function (e) {
+    var x = document.getElementById('app').getAttribute('change-cp');
+    if (x) {
+
+            if(document.getElementById('theme'))
+                document.getElementById('theme').outerHTML = '';
+            var cssx = document.createElement('link');
+            x = x.toLowerCase();
+        cssx.href = './public/static/css/themes/' + x + '.css' + gv();
+            cssx.rel = 'stylesheet';
+            cssx.type = 'text/css';
+            cssx.media = 'all';
+            cssx.id = 'theme';
+            document.getElementsByTagName('head')[0].appendChild(cssx);
+        document.getElementById('app').removeAttribute('change-cp')
+    }
+});
+
+function gv() {
+    return '?v=404122171404';
+}
+
+if (typeof(Storage) !== "undefined") {
+    if (typeof Promise === "undefined") {
+        var zx = document.createElement('script');
+        var za = document.createElement('script');
+        // zx.src = './public/static/libs/promise.polyfill.min.js';
+        zx.src = './public/static/libs/core.min.js' + gv();
+        // zx.src = './public/static/libs/promise.polyfill.min.js';
+        za.src = './public/static/libs/fetch.js' + gv();
+        document.getElementsByTagName('head')[0].appendChild(zx);
+        document.getElementsByTagName('head')[0].appendChild(za);
+        String.prototype.endsWith = function (s) {
+            return this.indexOf(s, this.length - s.length) !== -1
+        }
+    }
+    if (typeof fetch === "undefined") {
+        var za = document.createElement('script');
+        za.src = './public/static/libs/fetch.js' + gv();
+        document.getElementsByTagName('head')[0].appendChild(za);
+    }
+    var z1 = document.createElement('script');
+    var z2 = document.createElement('script');
+    var z3 = document.createElement('script');
+    var locale = localStorage.getItem('mibLocale') == null ? 'fa' : localStorage.getItem('mibLocale');
+    z1.onload = function () {
+        loadJS('1')
+    };
+    z2.onload = function () {
+        loadJS('2')
+    };
+    z3.onload = function () {
+        loadJS('3')
+    };
+
+    // var css = document.createElement('link');
+    // css.href = './public/static/css/themes/blues.css';
+    // css.rel = 'stylesheet';
+    // css.type = 'text/css';
+    // css.media = 'all';
+    // css.id ='sd';
+    if (locale === 'en') {
+        z1.src = './public/static/faBundleTitles.js' + gv();
+        z2.src = './public/static/faBundleForms.js' + gv();
+        z3.src = './public/static/faBundleErrors.js'+ gv();
+        // document.getElementsByTagName('head')[0].appendChild(css);
+    }
+    else {
+        z1.src = './public/static/faBundleTitles.js' + gv();
+        z2.src = './public/static/faBundleForms.js' + gv();
+        z3.src = './public/static/faBundleErrors.js' + gv();
+    }
+    document.getElementsByTagName('head')[0].appendChild(z1);
+    document.getElementsByTagName('head')[0].appendChild(z2);
+    document.getElementsByTagName('head')[0].appendChild(z3);
+    if (!!document.documentMode) {
+        var css = document.createElement('link');
+        css.href = './public/static/css/IE.css' + gv();
+        css.rel = 'stylesheet';
+        css.type = 'text/css';
+        css.media = 'all';
+        document.getElementsByTagName('head')[0].appendChild(css);
+    }
+    /*
+        //Change With Document.ready and loaded bundle
+    */
+
+
+}
+var bundlesLoaded = {};
+
+function loadJS(x) {
+    bundlesLoaded[x] = true;
+    if (bundlesLoaded['1'] && bundlesLoaded['2'] && bundlesLoaded['3']) {
+        var s = document.createElement('script');
+        s.src = './index.js' + gv();
+        document.getElementsByTagName('body')[0].appendChild(s)
+    }
+}

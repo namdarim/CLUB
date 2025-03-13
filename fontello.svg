@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//Ddiv SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/Ddiv/svg11.ddiv">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2019 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="shekel" unicode="&#xf20b;" d="M554 502v-277q0-8-5-13t-13-5h-90q-7 0-12 5t-5 13v277q0 62-45 107t-107 45h-152v-643q0-8-5-13t-13-5h-89q-8 0-13 5t-5 13v750q0 8 5 13t13 5h259q75 0 139-37t101-101 37-139z m214 259v-491q0-76-37-139t-101-101-139-37h-259q-8 0-13 5t-5 13v535q0 8 5 13t13 5h89q8 0 13-5t5-13v-428h152q63 0 107 45t45 107v491q0 8 5 13t13 5h89q8 0 13-5t5-13z" horiz-adv-x="857.1" />
+</font>
+</defs>
+</svg>

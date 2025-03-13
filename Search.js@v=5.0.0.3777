@@ -1,0 +1,92 @@
+﻿$("body .search-icon").click(function () {
+    sendData($("body input#txt_search").val());
+});
+$("body .search-icon2").click(function () {
+    sendData($("body input#website_url").val());
+});
+
+function validURL(str) {
+    var regexp = /^(?:(?:https?|ftp):\/\/)?(?:(?!(?:10|127)(?:\.\d{1,3}){3})(?!(?:169\.254|192\.168)(?:\.\d{1,3}){2})(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))|(?:(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)(?:\.(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)*(?:\.(?:[a-z\u00a1-\uffff]{2,})))(?::\d{2,5})?(?:\/\S*)?$/;
+    if (regexp.test(str)) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function sendData(domain) {    
+    if (validURL(domain))
+        if (CheckEmpty(domain)) {
+            $.ajax({
+                url: "/Home/GetData",
+                type: "GET",
+                data: "domain="+ domain.replace(/http:\/\//g, "").replace(/https:\/\//g, ""),
+                error: function (e) {
+                    $("#loader").hide();
+                    swal('خطا', 'در زمان انجام عملیات خطا رخ داده است.', 'error');
+                },
+                beforeSend: function () {
+                    $("#loader").show();
+                },
+                success: function (data) {
+                    if (!jQuery.isEmptyObject(data)) {
+                        $("#loader").hide();
+                        if (data.id > 0 && data.expdate !== null) {
+                            var flag = "";
+                            var exdate = "";
+                            if (data.expdate.includes("منقضی")) {
+                                flag = "error";
+                                exdate = "<span style='color : red;'>" + data.expdate + "</span>";
+                            } else {
+                                flag = "success";
+                                exdate = data.expdate;
+                            }
+                            var message = "نماد ";
+                            if (data.logolevel === 0) {
+                                message += ' بدون ';
+                            } else {
+                                for (i = 0; i < data.logolevel; i++) message += '<i class="fa fa-fw fa-star cyellow"></i> ';
+                            }
+                            message += "<strong> ستاره " + "<br/>";
+                            message += "<strong>استان : </strong>" + data.stateName + "<br/>";
+                            message += "<strong>شهر : </strong>" + data.cityName + "<br/>";
+                            message += "<strong>تاریخ اعطا : </strong>" + data.approvedate + "<br/>";
+                            message += "<strong>تاریخ اعتبار : </strong>" + exdate + "<br/><br/>";
+                            message += "<strong>گروه کالا و خدمات مجاز : </strong>" + data.srvText + "<br/>";
+                            swal({
+                                html: true,
+                                title: data.nameper,
+                                text: message,
+                                type: flag,
+                                showCancelButton: true,
+                                confirmButtonColor: "#DD6B55",
+                                confirmButtonText: "مشاهده پروفایل کسب و کار",
+                                cancelButtonText: "تایید",
+                                closeOnConfirm: false,
+                                closeOnCancel: false
+                            }, function (isConfirm) {
+                                if (isConfirm) {
+                                    if (data.isNewProfile) window.location.href = "https://Trustseal.enamad.ir/?id=" + data.id + "&code=" + data.Code;
+                                    else window.open("https://Trustseal.enamad.ir/Verify.aspx?id=" + data.id + "&p=" + data.Code + "", "_blank", "toolbar=no, location=no,scrollbars=1, statusbar=no,menubar=no,resizable=0,top=30,width=580,height=600");
+                                } else {
+                                    swal.close();
+                                }
+                            });
+                        } else {
+                            swal('خطا', 'دامنه ای با این آدرس در سامانه یافت نشد.', 'error');
+                        }
+                    } else {
+                        swal('خطا', 'دامنه ای با این آدرس در سامانه ثبت نشده است.', 'error');
+                    }
+                }
+            });
+        } else {
+            swal('خطا', 'ساختار آدرس دامنه صحیح نمی باشد.', 'error');
+        }
+}
+$(function () {
+    $(".enamad-search-button").click(function () {
+        $("body input#txt_search").val("");
+        $("body input#website_url").val("");
+    });
+});

@@ -1,0 +1,100 @@
+﻿/*IRAN Sans-serif fonts are considered a proprietary software.
+To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com 
+
+This set of fonts are used in this project under the license: (BZHYW)
+
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+In case you use this set of fonts in a software product, write the license code in the specified place and place this file next to the fonts.
+
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+فونت های ايران سن‌سریف يک نرم افزار مالکيتی محسوب می شود جهت آگاهی از قوانين استفاده از اين فونت‌ها لطفاً به  وبسايت 
+www.fontiran.com 
+مراجعه نماييد 
+اين مجموعه فونت تحت اجازه نامه 
+(BZHYW)
+در اين پروژه استفاده می شود*/
+
+
+@font-face {
+	font-family: IRANSansWeb;
+	font-style: normal;
+	font-weight: 900;
+	src: url('IRANSansWeb_Black.eot');
+	src: url('IRANSansWeb_Black.eot@') format('embedded-opentype'),  /* IE6-8 */
+		 url('IRANSansWeb_Black.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('IRANSansWeb_Black.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('IRANSansWeb_Black.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSansWeb;
+	font-style: normal;
+	font-weight: bold;
+	src: url('IRANSansWeb_Bold.eot');
+	src: url('IRANSansWeb_Bold.eot@') format('embedded-opentype'),  /* IE6-8 */
+		 url('IRANSansWeb_Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('IRANSansWeb_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('IRANSansWeb_Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSansWeb;
+	font-style: normal;
+	font-weight: 500;
+	src: url('IRANSansWeb_Medium.eot');
+	src: url('IRANSansWeb_Medium.eot@') format('embedded-opentype'),  /* IE6-8 */
+		 url('IRANSansWeb_Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('IRANSansWeb_Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('IRANSansWeb_Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSansWeb;
+	font-style: normal;
+	font-weight: 300;
+	src: url('IRANSansWeb_Light.eot');
+	src: url('IRANSansWeb_Light.eot@') format('embedded-opentype'),  /* IE6-8 */
+		 url('IRANSansWeb_Light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('IRANSansWeb_Light.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('IRANSansWeb_Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSansWeb;
+	font-style: normal;
+	font-weight: 200;
+	src: url('IRANSansWeb_UltraLight.eot');
+	src: url('IRANSansWeb_UltraLight.eot@') format('embedded-opentype'),  /* IE6-8 */
+		 url('IRANSansWeb_UltraLight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('IRANSansWeb_UltraLight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('IRANSansWeb_UltraLight.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSansWeb;
+	font-style: normal;
+	font-weight: normal;
+	src: url('IRANSansWeb.eot');
+	src: url('IRANSansWeb.eot@.1') format('embedded-opentype'),  /* IE6-8 */
+		 url('IRANSansWeb.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('IRANSansWeb.ttf') format('truetype');
+}
+
+
+body, html , p , ul , li , span , a , h1 , h2 , h3, h4 , h5 {
+    font-family: IRANSansWeb, Tahoma !important;
+}
+/*.h4, h4 {
+	font-size: 1rem;
+}*/
+
+div{font-size: .8rem;}
+p{font-size: .8rem;}
+@font-face {
+	font-family: 'MellatFont';
+	src: url('mellat-icons.c4f9b863.eot');
+	src: url('mellat-icons.c4f9b863.eot') format('embedded-opentype'), url('mellat-icons.ec94df58.woff2') format('woff2'), url('mellat-icons.7e37caa4.woff') format('woff'), url('mellat-icons.d0a69856.ttf') format('truetype'), url('mellat-icons.2ecd2bd9.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Material Icons;
+	src: url(material-icon.9ea8e3d4.woff2) format("woff2")
+}

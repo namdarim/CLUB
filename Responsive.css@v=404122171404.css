@@ -1,0 +1,1685 @@
+@media (max-width: 575.98px) {
+    #servicesList > div > div > form > div > div:nth-child(1){
+        margin-top: 50px!important;
+    }
+    #rowpanType{
+        height: 160px!important;
+    }
+    .each-title-box-modal {
+        display: block!important;
+    }
+    .each-title-box-modal .type-of-title{
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 5px;
+        width:100%;
+    }
+    /*--------------------------*/
+    .special-user-service-grid .multi-checkbox-wrap{
+        margin: 40px 0px 0px 0px !important;
+    }
+    .special-user-service-grid .multi-checkbox-wrap .radio-wrapper{
+        height:40px!important;
+    }
+
+    .eb-company-logo{
+        top:-15px;
+        left:-28px;
+    }
+    .eb-company-logo img {
+        max-width: 55px;
+    }
+    /*--------------Tooltip--------------*/
+    .tooltip-show{
+        width: 185px;
+        left:0px;
+    }
+    .tooltip-show .arrow-down{
+        top: 42px;
+        left: 12px;
+    }
+
+    .AccountNumber-Holder{
+        width: 95%;
+    }
+    .combo-box select option{
+        font-size: 12px;
+    }
+
+    /*--------------login-header-2--------------*/
+    .login-app-wrapper #header-2 .col-9{
+        flex: 0 0 100%!important;
+        max-width: 100% !important;
+    }
+
+    /*-------------Modal style-------------*/
+    .modal-body ol{
+        padding-right: 8px !important;
+    }
+
+    /*-----------form-info style------------*/
+    .form-info ol{
+        padding-right: 1rem;
+    }
+
+    /*-----------step bar component style------------*/
+    .nav-form {
+        margin: 0px 5px;
+        margin-bottom: 0.5rem;
+    }
+    .nav-form p{
+        font-size: 0.6rem;
+    }
+    .nav-form p:after{
+        width: 12px;
+    }
+    .nav-form-number{
+        padding-right: .35rem !important;
+        padding-left: .35rem !important;
+        font-size: 0.6rem !important;
+    }
+
+    /*----------------keyboard style---------------*/
+    .medium-keyboard .virtualkey-abso{
+        left: -14px;
+        width: 106% !important;
+        right: auto;
+        top:-200px;
+    }
+    .medium-keyboard .virtualkey-abso #BO-K .key-box .keyboard-keys.shift.key-space {
+        width: 95px;
+        padding-bottom: 26px;
+    }
+    .medium-keyboard .virtualkey-abso #BO-K .key-box .keyboard-keys.shift.key-space .backspace-icon{
+        top: 2px!important;
+    }
+    .medium-keyboard .virtualkey-abso #BO-K .key-box .keyboard-keys.shift {
+        width: 95px;
+        padding-bottom: 26px;
+    }
+    .medium-keyboard .virtualkey-abso #BO-K .key-box .keyboard-keys {
+        width: 29px;
+        padding-bottom: 26px;
+    }
+    /*----------------login keyboard---------------*/
+    .login-carousal #BO-K .key-box .keyboard-keys {
+
+        width: 31px;
+        padding-bottom: 29px;
+
+    }
+    .login-carousal #BO-K .key-box .keyboard-keys.shift {
+        width: 68px;
+    }
+    .login-carousal #BO-K .key-box .keyboard-keys.key-space {
+        width: 89px;
+        line-height: 10px;
+    }
+    .login-carousal #BO-K .key-box .keyboard-keys  div{
+        top: 4%;
+
+    }
+    .keyboard-keys.key-space div{
+        top: 14%;
+    }
+    .login-carousal #BO-K .key-box .keyboard-keys.key-space .backspace-icon{
+        top:2px!important;
+    }
+    /*----------------Small keyboard---------------*/
+    /* .small-keyboard .virtualkey-abso {
+         top:-50px;
+     }*/
+    .small-keyboard .virtualkey-abso .keyboard-keys div {
+        top:18%!important;
+    }
+    /*!*----------------Medium keyboard---------------*!
+    .medium-keyboard .virtualkey-abso {
+        top:-130px;
+    }*/
+    .medium-keyboard .virtualkey-abso .keyboard-keys div {
+        top:14%;
+    }
+    /*----------------------recipt-----------------*/
+
+    #result-table-export .dropdown{
+        top: 0px;
+        left: 0px;
+    }
+    #form-confirm-header h6{
+        font-size: 13px;
+    }
+    /*-------------------Dashboard-----------------*/
+    .MostUsed .round-shadow{
+        margin-right: -13px;
+        margin-left: -16px;
+    }
+    .News .round-shadow{
+        margin-left: -14px;
+        margin-right: -13px;
+    }
+    /*transfer*/
+    .inquery-paya{
+        left: -28px;
+        top: -25px;
+        font-size: 11px;
+    }
+    .fa.fa-star.favorite-icon{
+        left: -24px !important;
+        top: 16px;
+    }
+    /*-----------------------Report--------------------*/
+    .report-table.table td, .report-table.table th{
+        padding: 15px 5px 10px 0px;
+    }
+    /*-----------------------otp-------------------*/
+    .otp-label-confirm{
+        margin-top: -60px;
+    }
+    #rowmobilePhoneNumberlbl div{
+        font-size: 10px;
+    }
+
+    .access-table .table td ,.access-table .table th{
+        font-size: 10px;
+        padding: .5rem .1rem;
+    }
+    /*margin xs*/
+    .m-xs-0 {
+        margin: 0 !important;
+    }
+    .mt-xs-0,
+    .my-xs-0 {
+        margin-top: 0 !important;
+    }
+    .mr-xs-0,
+    .mx-xs-0 {
+        margin-right: 0 !important;
+    }
+    .mb-xs-0,
+    .my-xs-0 {
+        margin-bottom: 0 !important;
+    }
+    .ml-xs-0,
+    .mx-xs-0 {
+        margin-left: 0 !important;
+    }
+    .m-xs-1 {
+        margin: 0.25rem !important;
+    }
+    .mt-xs-1,
+    .my-xs-1 {
+        margin-top: 0.25rem !important;
+    }
+    .mr-xs-1,
+    .mx-xs-1 {
+        margin-right: 0.25rem !important;
+    }
+    .mb-xs-1,
+    .my-xs-1 {
+        margin-bottom: 0.25rem !important;
+    }
+    .ml-xs-1,
+    .mx-xs-1 {
+        margin-left: 0.25rem !important;
+    }
+    .m-xs-2 {
+        margin: 0.5rem !important;
+    }
+    .mt-xs-2,
+    .my-xs-2 {
+        margin-top: 0.5rem !important;
+    }
+    .mr-xs-2,
+    .mx-xs-2 {
+        margin-right: 0.5rem !important;
+    }
+    .mb-xs-2,
+    .my-xs-2 {
+        margin-bottom: 0.5rem !important;
+    }
+    .ml-xs-2,
+    .mx-xs-2 {
+        margin-left: 0.5rem !important;
+    }
+    .m-xs-3 {
+        margin: 1rem !important;
+    }
+    .mt-xs-3,
+    .my-xs-3 {
+        margin-top: 1rem !important;
+    }
+    .mr-xs-3,
+    .mx-xs-3 {
+        margin-right: 1rem !important;
+    }
+    .mb-xs-3,
+    .my-xs-3 {
+        margin-bottom: 1rem !important;
+    }
+    .ml-xs-3,
+    .mx-xs-3 {
+        margin-left: 1rem !important;
+    }
+    .m-xs-4 {
+        margin: 1.5rem !important;
+    }
+    .mt-xs-4,
+    .my-xs-4 {
+        margin-top: 1.5rem !important;
+    }
+    .mr-xs-4,
+    .mx-xs-4 {
+        margin-right: 1.5rem !important;
+    }
+    .mb-xs-4,
+    .my-xs-4 {
+        margin-bottom: 1.5rem !important;
+    }
+    .ml-xs-4,
+    .mx-xs-4 {
+        margin-left: 1.5rem !important;
+    }
+    .m-xs-5 {
+        margin: 3rem !important;
+    }
+    .mt-xs-5,
+    .my-xs-5 {
+        margin-top: 3rem !important;
+    }
+    .mr-xs-5,
+    .mx-xs-5 {
+        margin-right: 3rem !important;
+    }
+    .mb-xs-5,
+    .my-xs-5 {
+        margin-bottom: 3rem !important;
+    }
+    .ml-xs-5,
+    .mx-xs-5 {
+        margin-left: 3rem !important;
+    }
+    .p-xs-0 {
+        padding: 0 !important;
+    }
+    .pt-xs-0,
+    .py-xs-0 {
+        padding-top: 0 !important;
+    }
+    .pr-xs-0,
+    .px-xs-0 {
+        padding-right: 0 !important;
+    }
+    .pb-xs-0,
+    .py-xs-0 {
+        padding-bottom: 0 !important;
+    }
+    .pl-xs-0,
+    .px-xs-0 {
+        padding-left: 0 !important;
+    }
+    .p-xs-1 {
+        padding: 0.25rem !important;
+    }
+    .pt-xs-1,
+    .py-xs-1 {
+        padding-top: 0.25rem !important;
+    }
+    .pr-xs-1,
+    .px-xs-1 {
+        padding-right: 0.25rem !important;
+    }
+    .pb-xs-1,
+    .py-xs-1 {
+        padding-bottom: 0.25rem !important;
+    }
+    .pl-xs-1,
+    .px-xs-1 {
+        padding-left: 0.25rem !important;
+    }
+    .p-xs-2 {
+        padding: 0.5rem !important;
+    }
+    .pt-xs-2,
+    .py-xs-2 {
+        padding-top: 0.5rem !important;
+    }
+    .pr-xs-2,
+    .px-xs-2 {
+        padding-right: 0.5rem !important;
+    }
+    .pb-xs-2,
+    .py-xs-2 {
+        padding-bottom: 0.5rem !important;
+    }
+    .pl-xs-2,
+    .px-xs-2 {
+        padding-left: 0.5rem !important;
+    }
+    .p-xs-3 {
+        padding: 1rem !important;
+    }
+    .pt-xs-3,
+    .py-xs-3 {
+        padding-top: 1rem !important;
+    }
+    .pr-xs-3,
+    .px-xs-3 {
+        padding-right: 1rem !important;
+    }
+    .pb-xs-3,
+    .py-xs-3 {
+        padding-bottom: 1rem !important;
+    }
+    .pl-xs-3,
+    .px-xs-3 {
+        padding-left: 1rem !important;
+    }
+    .p-xs-4 {
+        padding: 1.5rem !important;
+    }
+    .pt-xs-4,
+    .py-xs-4 {
+        padding-top: 1.5rem !important;
+    }
+    .pr-xs-4,
+    .px-xs-4 {
+        padding-right: 1.5rem !important;
+    }
+    .pb-xs-4,
+    .py-xs-4 {
+        padding-bottom: 1.5rem !important;
+    }
+    .pl-xs-4,
+    .px-xs-4 {
+        padding-left: 1.5rem !important;
+    }
+    .p-xs-5 {
+        padding: 3rem !important;
+    }
+    .pt-xs-5,
+    .py-xs-5 {
+        padding-top: 3rem !important;
+    }
+    .pr-xs-5,
+    .px-xs-5 {
+        padding-right: 3rem !important;
+    }
+    .pb-xs-5,
+    .py-xs-5 {
+        padding-bottom: 3rem !important;
+    }
+    .pl-xs-5,
+    .px-xs-5 {
+        padding-left: 3rem !important;
+    }
+    .m-xs-auto {
+        margin: auto !important;
+    }
+    .mt-xs-auto,
+    .my-xs-auto {
+        margin-top: auto !important;
+    }
+    .mr-xs-auto,
+    .mx-xs-auto {
+        margin-right: auto !important;
+    }
+    .mb-xs-auto,
+    .my-xs-auto {
+        margin-bottom: auto !important;
+    }
+    .ml-xs-auto,
+    .mx-xs-auto {
+        margin-left: auto !important;
+    }
+    /*--------------chart in modal-------------*/
+    .modal .svg-holder{
+        padding: 15px 4px 9px!important;
+    }
+    .modal .svg-holder .ct-labels .ct-label {
+        font-size: 12px!important;
+    }
+
+
+    /*--------------form lable for day month-------------*/
+    .form-flex form .radio-wrapper label{
+        min-width: 65px!important;
+        padding:0px 25px!important;
+    }
+    .expense-management-diagram-box .chart-legend-parent div{
+        margin: 0 3px!important;
+        font-size: 10px!important;
+    }
+    .expense-management-diagram-box .chart-legend-parent  .chart-legend{
+        width:14px!important;
+        height:14px!important;
+    }
+    .expense-management-diagram-box .chart-legend-parent{
+        display: flex!important;
+    }
+    /*--------------AccountPriorityComponent------------*/
+    .account-priority-box .acc-prio-t-2 ,.account-priority-box .acc-prio-t-1 {
+        left: 12px;
+        font-size: 12px;
+    }
+    .account-priority-box .psa{
+        left: 32px;
+        max-height: 23px;
+    }
+    .account-priority-box .psa .acc-pri.fa-check {
+        color: green;
+        top: 0px;
+    }
+    .computationalFormula{
+        width: 100%;
+    }
+    .disFlex{
+        display: block !important;
+    }
+}
+
+
+
+
+
+
+
+@media (min-width: 576px){
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px){
+    #rowpanType{
+        height: 160px!important;
+    }
+    /*--------------Tooltip--------------*/
+    .tooltip-show{
+        width: 185px;
+        left:-14px;
+    }
+    .tooltip-show .arrow-down{
+        top: 42px;
+        left: 20px;
+    }
+
+
+    .eb-btn-text .AccountNumber-Holder{
+        width: 87%;
+    }
+    /*-------------Modal style-------------*/
+    .modal-body ol{
+        padding-right: 15px !important;
+    }
+    /*------------------------------*/
+    #site-title {
+        font-size: 14px;
+    }
+    #welcome-user{
+        margin-top: 10px;
+    }
+    .eb-company-logo{
+        left:-15px;
+    }
+    /*----------------keyboard style---------------*/
+    .medium-keyboard .virtualkey-abso{
+        width: 100% !important;
+        top:-195px;
+    }
+    /*-----modal-keyborad----*/
+    .modal-body.grid-modal-body .medium-keyboard .virtualkey-abso{
+        top:auto;
+    }
+    /*----------------login keyboard---------------*/
+    .login-carousal #BO-K .key-box .keyboard-keys {
+
+        width: 31px;
+        padding-bottom: 29px;
+
+    }
+    .login-carousal #BO-K .key-box .keyboard-keys.shift {
+        width: 78px;
+    }
+    .login-carousal #BO-K .key-box .keyboard-keys.key-space {
+        width: 104px;
+    }
+
+    .login-carousal #BO-K .key-box .keyboard-keys  div{
+        top:7%;
+    }
+    .keyboard-keys.key-space div{
+        top: 8%;
+    }
+    .login-carousal #BO-K .key-box .keyboard-keys.key-space .backspace-icon{
+        top:3px!important;
+    }
+    /*-------------------Dashboard------------------*/
+    .MostUsed .round-shadow{
+        margin-right: -14px;
+        margin-left: -16px;
+    }
+    .News .round-shadow{
+        margin-left: -17px;
+        margin-right: -13px;
+    }
+    /*----------------Small keyboard---------------*/
+    /*  .small-keyboard .virtualkey-abso {
+          top:-45px;
+      }*/
+
+    .small-keyboard .virtualkey-abso .keyboard-keys div {
+        top:18%!important;
+    }
+    /*----------------Medium keyboard---------------*/
+    /* .medium-keyboard .virtualkey-abso {
+         top:-157px;
+     }*/
+
+    .medium-keyboard .virtualkey-abso .keyboard-keys div {
+        top:19%;
+    }
+    /*-------------------tab----------------------*/
+    .account-type-wrap{
+        width: auto;
+        padding:5px 20px;
+    }
+    /*--------------AccountPriorityComponent------------*/
+
+    .account-priority-box .psa{
+        left: 55px;
+        max-height: 25px;
+    }
+    .on-the-MultiCheckBox-behavior{
+        right: -50px;
+    }
+}
+
+
+
+@media (max-width: 767.98px){
+
+
+    #dash-news-w.overflow-v .round-shadow{
+        height:auto!important;
+        width: auto!important;
+        position: relative;
+        top:auto!important;
+    }
+
+
+    .eb-radio{
+        flex-direction: column;
+    }
+
+    @media (max-width: 767.98px) {
+        .radioCustomemForm .eb-radio {
+            flex-direction: row;
+        }
+    }
+    .eb-radio .radio-wrapper{
+        margin-bottom: 45px;
+    }
+    .login-form{
+        border: none;
+    }
+    #dashboard.side-max {
+        width: 100%;
+    }
+    #dashboard.side-min {
+        width: 0;
+        /*right: -200px;*/
+        max-height: 100px;
+        position: absolute;
+        background-color: unset;
+        box-shadow: unset;
+        z-index: 1;
+        top:0px;
+    }
+    #dashboard.side-min .menu-small{
+        display:none ;
+    }
+    .side-max .fa-navicon:before{
+        content: "\f1e3";
+        transition: all .2s;
+    }
+    .AccountNumber-Holder{
+        width: 95%;
+    }
+    .eb-no-item .AccountNumber-Holder{
+        width: 100%;
+    }
+    #min-toggle {
+        display: block;
+    }
+    /*.tooltip-show{*/
+    /*width: 185px;*/
+    /*left:-27px;*/
+    /*}*/
+    /*.tooltip-show .arrow-down{*/
+    /*top: 42px;*/
+    /*left: 22px;*/
+    /*}*/
+    .tooltip-show p{
+        font-size: 11px;
+    }
+    /*.tooltip-show:before{*/
+    /*left: 34px;*/
+    /*}*/
+
+    #carouselI,#carouselI .slide, #carouselI .slide-head{
+        height: auto;
+    }
+
+    /*----------------OTP---------------*/
+    /*.eb-otp .s-otp-input{*/
+    /*width: 85%;*/
+    /*float: right;*/
+    /*}*/
+    .eb-otp #s-otp-but {
+        /*top: 39px;*/
+        width: 100px !important;
+        /*left: -6px;*/
+        font-size: 10px;
+        max-width: 67px;
+        padding: 10px 2px 0 2px !important;
+    }
+
+    .sahab-draft-box .eb-otp #s-otp-but {
+        Max-width: none !important;
+    }
+
+    /*------------------footer------------------*/
+    /* #footer span:after{
+         display: none;
+     }*/
+    #footer .line-footer{
+        display: none;
+    }
+
+    /*--------------chart bellowtable-------------*/
+    .budgeting-report-box .svg-holder{
+        padding: 92px 22px!important;
+    }
+    .budgeting-report-box .svg-holder .ct-labels .ct-label {
+        font-size: 12px!important;
+    }
+    .compare-with-other-report-box .svg-holder{
+        padding: 80px 35px!important
+    }
+    .compare-with-other-report-box .svg-holder .ct-labels .ct-label {
+        font-size: 12px!important;
+    }
+    .expense-management-diagram-box  .svg-holder{
+        padding: 80px 24px!important
+    }
+    .expense-management-diagram-box .svg-holder .ct-labels .ct-label {
+        font-size: 12px!important;
+    }
+    /*------------------table with amount footer------------------*/
+    .budgeting-report-box .footer-amount td:first-child{
+        display: none!important;
+    }
+    .budgeting-report-box .footer-amount td:last-child{
+        display: none!important;
+    }
+
+    .disFlex{
+        display: block !important;
+    }
+
+
+}
+
+
+@media (min-width: 768px){
+
+    .mt-md-4-5-2{
+        margin-top:2rem!important;
+    }
+    .eb-radio .eb-radio-title{
+        position: absolute;
+        top:-30px;
+
+    }
+
+    .mt-md-6{
+        margin-top: 4rem;
+    }
+    /*----------------login keyboard---------------*/
+    .login-carousal #BO-K .key-box .keyboard-keys {
+
+        padding-bottom: 32px;
+        width: 35px;
+    }
+
+
+    #carouselI{
+        margin: 7px 20px 12px 9px;
+    }
+    /*----------------Small keyboard---------------*/
+    .small-keyboard .virtualkey-abso .keyboard-keys div {
+        top:16%!important;
+    }
+    /*----------------Medium keyboard---------------*/
+    .medium-keyboard .virtualkey-abso .keyboard-keys div {
+        top:19%;
+    }
+    .on-the-MultiCheckBox-behavior{
+        right: -28px;
+    }
+    #facilityContracts .confirmButton{margin-left: 25%; position: relative; top: -29px;}
+    #facilityContracts .cancelButton{margin-right: 50%;position: relative; top: 109px; z-index: 1;}
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+    #xxsssaa{
+        top:100px;
+    }
+    .depo-acc-all{
+        top:210px;
+    }
+    .form-flex.month-form  {
+        margin-bottom: 4rem!important;
+    }
+    .eb-chart{
+        margin-left: 9px;
+        margin-right: 21px;
+    }
+    .eb-company-logo{
+        bottom: 408px;
+    }
+    /*#calender {*/
+    /*margin: 8px 0 0 0px;*/
+    /*}*/
+    #welcome-user{
+        margin-top: 10px;
+    }
+    .AccountNumber-Holder{
+        width: 97%;
+    }
+    .eb-btn-text .AccountNumber-Holder{
+        width: 90%;
+    }
+    .eb-no-item .AccountNumber-Holder{
+        width: 100%;
+    }
+    /*.eb-otp .s-otp-input{*/
+    /*width: 90%;*/
+    /*float: right;*/
+    /*}*/
+    .tooltip-show{
+        width: 200px;
+        /*left: -48px;*/
+        left:-4px;
+    }
+    .tooltip-show .arrow-down{
+        left:13px;
+    }
+    .tooltip-c-wi.tooltip-show{
+    }
+    .eb-otp #s-otp-but{
+        font-size: 11px;
+        max-width: 88px;
+        /*left: -3px;*/
+    }
+
+    .sahab-draft-box .eb-otp #s-otp-but {
+        Max-width: none !important;
+    }
+
+    /*-------------------Dashboard------------------*/
+    .MostUsed .round-shadow{
+        margin-right: 6px;
+        margin-left: -6px;
+    }
+    .News .round-shadow{
+        margin-left: -6px;
+        margin-right: 6px;
+    }
+    /*-------------------Login keyboard-------------------*/
+    .login-carousal #BO-K .key-box .keyboard-keys.key-space .backspace-icon{
+        top:3px!important;
+    }
+    /*----------------Small keyboard---------------*/
+    /* .small-keyboard .virtualkey-abso {
+         top:-45px;
+     }*/
+    /*----------------Medium keyboard---------------*/
+    /*  .medium-keyboard .virtualkey-abso {
+          top:-157px;
+      }*/
+
+    /*------------------table with amount footer------------------*/
+    .budgeting-report-box .footer-amount td:last-child{
+        display: none!important;
+    }
+
+
+
+}
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+
+
+    .login-carousal #BO-K .key-box .keyboard-keys  div{
+        top: 4%;
+    }
+    /*-------------Modal style-------------*/
+    .modal-body ol{
+        padding-right: 22px !important;
+    }
+    .MostUsed .card  .card-block  i{
+        font-size: 2.6em;
+        padding: 0px 0px 0px 2px;
+        margin: 10px 4px;
+    }
+    .MostUsed .card  .card-block{
+        padding: 0px;
+    }
+    .MostUsed .card .card-block h4 {
+        font-size: 11px!important;
+        line-height: 20px;
+    }
+    #dash-most-used .tab-content{
+        padding-right:1rem!important;
+        padding-left:1rem!important;
+    }
+    .computationalFormula{
+        width: 60%;
+    }
+}
+
+
+
+@media (max-width: 991.98px){
+    .eb-post-item {
+        width: 82%;
+    }
+    .eb-ref-item {
+        width: 16%;
+    }
+    /*-----------------------------*/
+    .prrb{
+        border-top: 1px solid #dedede;
+        border-right: 0px;
+        margin-top: 51px;
+        padding-top: 39px;
+    }
+
+    .num-arrow-calender{
+        left:auto;
+    }
+    .News #carousalI{
+        margin: 10px 0;
+    }
+    /*----------------login form ---------------*/
+    .login-form {
+        border-left: none;
+        border-right: none!important;
+        border-bottom: 2px solid #e7e7e7;
+    }
+
+    .dpclndic,.text-info{
+        left: 0;
+    }
+    .expense-management-diagram-box .chart-legend-parent{
+        display: flex!important;
+    }
+    .conditions-parameters{
+        flex-direction: column;
+    }
+    .conditions-parameters-col.left{
+        width: 100%;
+    }
+    .conditions-parameters-col.right{
+        width: 100%;
+        margin-top: 25px;
+    }
+    .monthlyDailyDraftReport{
+        width: 70%;/*328px;*/
+        flex-direction: column
+    }
+    .monthlyDailyDraftReport-box{
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 992px){
+
+    .change-password-box .medium-keyboard .virtualkey-abso  {
+        right: auto!important;
+    }
+    .MostUsed .round-shadow{
+        margin-right: 15px;
+    }
+
+    #welcome-user{
+        line-height: 33px;
+    }
+    .captcha-input input#CaptchaBox.login-input{
+        width: 40%;
+    }
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .custom-radio-width .radio-wrapper label{
+        min-width: 110px;
+    }
+    /*-----------------------------*/
+    .form-flex.month-form {
+        margin-bottom: 6rem !important;
+    }
+    .AccountNumber-Holder{
+        width: 97%;
+    }
+    /* .amount-calender{
+         position: absolute;
+         left:0px;
+     }
+ */
+
+    /*----------------keyboard style---------------*/
+    .medium-keyboard.responsive-key .virtualkey-abso{
+        left: -76px !important;
+        right: auto !important;
+    }
+    /*----------------login keyboard---------------*/
+    .keyboard-keys div{
+        top: 10%;
+
+    }
+    .keyboard-keys.key-space div{
+        top: 14%;
+    }
+    .login-carousal #BO-K .key-box .keyboard-keys.key-space .backspace-icon {
+        top: 5px!important;
+    }
+    /*----------------Small keyboard---------------*/
+    /*  .small-keyboard .virtualkey-abso {
+          top: -66px;
+          left: -194px;
+
+      }*/
+    .small-keyboard .virtualkey-abso .keyboard-keys div , .medium-keyboard .virtualkey-abso .keyboard-keys div{
+        top:18%;
+    }
+    /*----------------Medium keyboard---------------*/
+    /* .medium-keyboard .virtualkey-abso {
+         top:-140px;
+     }*/
+
+    /*-------------------Dashboard------------------*/
+    .MostUsed .round-shadow{
+        margin-right: 6px;
+        margin-left: -6px;
+    }
+    .News .round-shadow{
+        margin-left: -16px;
+        margin-right: -14px;
+    }
+    /*-------------------tab----------------------*/
+    .account-type-wrap{
+        width: auto;
+        padding: 5px ;
+    }
+    /*-------------OtpActivation ----------------*/
+    /* .otp-activation-box .link-box{
+         width: 114px!important;
+     }*/
+    /*------------------table with amount footer------------------*/
+    .budgeting-report-box .footer-amount td:last-child{
+        display: none!important;
+    }
+    .on-the-MultiCheckBox-behavior{
+        right: -50px;
+    }
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1499.98px){
+
+    /*-----------------------------*/
+    .rial-text{
+        display: none!important;
+    }
+
+    .amount-calender{
+        font-size: 12px!important;
+    }
+    .num-circle-calender{
+        width: 14px;
+        height: 14px;
+        font-size: 10px;
+        text-align: center;
+        line-height: 14px;
+        right: -3px;
+        margin-top: -10px;
+        vertical-align: middle;
+    }
+
+    /*----------------Medium keyboard---------------*/
+    /* .medium-keyboard .virtualkey-abso {
+         top:-157px;
+     }*/
+    /*-----------JDatePicker style------------*/
+    /* .JDatePicker{
+         width: 320px !important;
+     }*/
+
+}
+
+
+@media (max-width: 1023.98px){
+
+}
+
+
+
+@media (min-width: 1024px){
+
+
+}
+
+
+
+@media(max-width: 1199.98px) {
+    .dash-card-menu-wrap{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .dash-card-menu-wrap div{
+        width: 70%;
+
+    }
+}
+
+
+@media (min-width: 1200px){
+    #carouselI{
+        margin: 7px 28px 5px 4px;
+    }
+    .edit-mail-warning .eb-btn-link{
+        margin-top: 20px;
+    }
+
+    .on-the-MultiCheckBox-behavior{
+        right: -85px;
+    }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1499.98px){
+    /*-----------------------------*/
+    .form-flex.month-form {
+        margin-bottom: 2rem !important;
+    }
+
+    /*----------------medium keyboard ---------------*/
+    .medium-keyboard.responsive-key .virtualkey-abso {
+        left: -76px !important;
+        right: auto !important;
+    }
+    /*   .medium-keyboard .virtualkey-abso {
+           top:-161px;
+       }*/
+    /*----------------login keyboard---------------*/
+    .login-carousal #BO-K .key-box .keyboard-keys  div{
+        top: 11%;
+
+    }
+    .keyboard-keys.key-space div{
+        top:18%;
+    }
+    .login-carousal #BO-K .key-box .keyboard-keys {
+
+        padding-bottom: 34px;
+        width: 41px;
+    }
+    .login-carousal #BO-K .key-box .keyboard-keys.shift {
+        width: 77px;
+    }
+    .login-carousal #BO-K .key-box .keyboard-keys.key-space .backspace-icon{
+        top:5px!important;
+    }
+    /*-------------------Dashboard------------------*/
+    .MostUsed .round-shadow{
+        margin-right: 13px;
+    }
+    .News .round-shadow{
+        margin-left: -11px;
+        margin-right: -16px;
+    }
+    /*----------------Small keyboard---------------*/
+    /*  .small-keyboard .virtualkey-abso {
+          top: -45px;
+          left: -86px;
+      }*/
+
+    .small-keyboard .virtualkey-abso .keyboard-keys div , .medium-keyboard .virtualkey-abso .keyboard-keys div{
+        top:18%;
+    }
+    /*-------------------tab----------------------*/
+    .account-type-wrap {
+        width: auto;
+        padding: 5px ;
+    }
+    /*-------------OtpActivation ----------------*/
+    /*.otp-activation-box .link-box{
+        width: 155px!important;
+    }*/
+
+
+}
+
+
+@media (min-width: 1500px){
+    /*-------------------tab----------------------*/
+    .account-type-wrap {
+        width: auto;
+
+    }
+
+    .sms-service-setting-box .account-type-wrap{
+        padding: 6px!important;
+        width: 23%!important;
+    }
+
+    /*----------------login keyboard---------------*/
+    .login-carousal #BO-K .key-box {
+        max-width: 1000px;
+    }
+    .login-carousal #BO-K .key-box .keyboard-keys {
+        padding-bottom: 42px;
+        width: 45px;
+    }
+    .login-carousal #BO-K .key-box .keyboard-keys.shift {
+        width: 91px;
+    }
+    .login-carousal #BO-K .key-box .keyboard-keys.key-space {
+        width: 123px;
+    }
+    /* ------------carousal***slickslider------*/
+    .slide .slide-body{
+        font-size: 14px;
+    }
+    /*.eb-confirm.confirm-container{*/
+    /*max-width: 850px;*/
+    /*}*/
+    /*-------------------Dashboard------------------*/
+    /*.MostUsed .round-shadow{*/
+    /*margin-right: 21px;*/
+    /*}*/
+    .News .round-shadow{
+        margin-left: -12px;
+        margin-right: -16px;
+    }
+    /*----------------Small keyboard---------------*/
+    /* .small-keyboard .virtualkey-abso {
+         top:-45px;
+     }*/
+    /*----------------Medium keyboard---------------*/
+    /* .medium-keyboard .virtualkey-abso {
+         top:-158px;
+     }*/
+
+
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    select,
+    textarea,
+    input {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+/*---------------------------------------------End Responsive -bootstrap----------------------------------------------*/
+
+
+
+
+/*-----------------------------------------------Out of range Bootstrap-----------------------------------------------*/
+@media(min-width: 517px) and (max-width: 575.98px) {
+    /*----------------Medium keyboard---------------*/
+    .medium-keyboard .virtualkey-abso {
+        top:-166px;
+    }
+    /*-----modal-keyborad----*/
+    .modal-body.grid-modal-body .medium-keyboard .virtualkey-abso{
+        top:auto;
+    }
+    /*----------------Small keyboard---------------*/
+    /* .small-keyboard .virtualkey-abso {
+         top:-67px;
+     }*/
+
+}
+@media(min-width: 415px) and (max-width: 516.98px) {
+    .tts-h-w {
+        width: 415px;
+        right: -14px;
+    }
+    /*----------------Medium keyboard---------------*/
+    .medium-keyboard .virtualkey-abso {
+        top:-225px;
+    }
+    /*-----modal-keyborad----*/
+    .modal-body.grid-modal-body .medium-keyboard .virtualkey-abso{
+        top:auto;
+    }
+    /*-----
+    /*----------------Small keyboard---------------*/
+    /* .small-keyboard .virtualkey-abso {
+         top:-68px;
+     }*/
+}
+@media(min-width: 340px) and (max-width: 414.98px) {
+    .tts-h-w {
+        width: 315px;
+        right: -7px;
+    }
+    /*----------------Medium keyboard---------------*/
+    .medium-keyboard .virtualkey-abso {
+        top:-223px;
+    }
+    /*-----modal-keyborad----*/
+    .modal-body.grid-modal-body .medium-keyboard .virtualkey-abso{
+        top:auto;
+    }
+    /*-----
+    /*----------------Small keyboard---------------*/
+    /*.small-keyboard .virtualkey-abso {
+        top:-95px;
+    }*/
+}
+@media(max-width: 399.98px) {
+    /*----------------Medium keyboard---------------*/
+    .medium-keyboard .virtualkey-abso {
+        top:-290px;
+    }
+    /*-----modal-keyborad----*/
+    .modal-body.grid-modal-body .medium-keyboard .virtualkey-abso{
+        top:auto;
+    }
+    /*-----
+    /*----------------Small keyboard---------------*/
+    /* .small-keyboard .virtualkey-abso {
+         top:-113px;
+     }*/
+
+}
+@media(min-width: 576px) and (max-width: 766.98px) {
+    .form-flex.month-form {
+        margin-bottom: 4rem !important;
+    }
+}
+@media(min-width: 400px) and (max-width: 575.98px) {
+    .form-flex.month-form {
+        margin-bottom: 7rem!important;
+    }
+
+    /*-------------------tab----------------------*/
+    .favorite-body {
+        width: 108%;
+        top: 34px;
+        left: -27px;
+    }
+    .account-top .favorite-body{
+        top:auto;
+    }
+    .account-type-wrap {
+        width: auto;
+        padding: 5px 12px;
+    }
+    .targeting-box .input-group span.highlight{
+        font-size: 9px!important;
+        right:0px!important;
+    }
+    .money-manager-budget-grid .input-group span.highlight{
+        font-size: 9px!important;
+        right:0px!important;
+
+    }
+    /*--------------------------*/
+    .each-box-modal .save-modal-circle{
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 27px;
+        top:5px;
+    }
+    /*--------------------------*/
+}
+@media(min-width: 320px) and (max-width: 399.98px){
+    .tts-h-w {
+        width: 320px;
+        right: -10px;
+    }
+    /*--------------------------*/
+    .money-manager-budget-grid .input-group span.highlight {
+        font-size: 9px !important;
+        right: 0px !important;
+    }
+    /*--------------------------*/
+    .each-box-modal .save-modal-circle {
+        width:40px;
+        height: 40px;
+        line-height: 40px;
+        top: -14px;
+        left: -18px;
+    }
+    /*--------------------------*/
+    .targeting-box .input-group span.highlight{
+        font-size: 9px!important;
+        right:0px!important;
+    }
+    .form-flex.month-form {
+        margin-bottom: 14rem!important;
+    }
+
+    /*-------------------tab----------------------*/
+    .favorite-body {
+        width: 122%!important;
+        top: 34px!important;
+        left: -42px;
+    }
+
+    .account-top .favorite-body{
+        top:auto!important;
+    }
+    .account-type-wrap {
+        width: auto!important;
+        padding: 5px 9px!important;
+    }
+    .each-title-box-modal{
+        display: block!important;
+    }
+    .each-title-box-modal .type-of-title{
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 5px;
+    }
+    .num-arrow-calender {
+        left: 6px!important;
+    }
+}
+@media(max-width: 320px){
+    .money-manager-budget-grid .input-group span.highlight {
+        font-size: 9px !important;
+        right: 0px !important;
+    }
+    /*--------------------------*/
+    .each-box-modal .save-modal-circle {
+        width:40px;
+        height: 40px;
+        line-height: 40px;
+        top: -14px;
+        left: -18px;
+    }
+    /*--------------------------*/
+    .cheque-status-report-box #report-holder-divs div.label-data{
+        margin-left: 0px!important;
+    }
+    /*-------------------tab----------------------*/
+    .favorite-body{
+        width: 120%!important;
+        left: -25px!important;
+    }
+    .account-type-wrap {
+        width: auto!important;
+        padding: 5px 3px!important;
+    }
+    .each-title-box-modal{
+        display: block!important;
+    }
+    .each-title-box-modal .type-of-title{
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 5px;
+    }
+    .num-arrow-calender {
+        left: 6px!important;
+    }
+}
+@media (min-width: 1282px) {
+
+    .app-max {
+        width: 95%;
+    }
+
+    .hidden-md-up {
+        display: none;
+    }
+
+    .app-min {
+        width: 85%;
+    }
+
+    .side-max {
+        width: 15%
+    }
+
+    .side-min {
+        width: 2%;
+    }
+
+    #min-toggle {
+        display: none;
+    }
+}
+@media (max-width: 1281px) {
+    .hidden-md-up {
+        display: none;
+    }
+
+    .app-max {
+        width: 90%;
+    }
+
+    .app-min {
+        width: 85%;
+    }
+
+    .side-max {
+        width: 15%
+    }
+
+    .side-min {
+        width: 2%;
+    }
+
+    #min-toggle {
+        display: none;
+    }
+}
+@media (max-width: 1025px) {
+    .app-max {
+        width: 90%;
+    }
+
+    .hidden-md-up {
+        display: none;
+    }
+
+    .app-min {
+        width: 75%;
+    }
+
+    .side-max {
+        width: 25%;
+    }
+
+    .side-min {
+        width: 2%;
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    /*--------------modal targeting and money-------------*/
+    .targeting-box  .computing-btn .eb-btn{
+        position: inherit;
+    }
+
+    .side-max {
+        width: 100%
+    }
+
+    .app-max {
+        width: 96%;
+        max-width: 705px;
+    }
+
+    .app-min {
+        max-width:  98%;
+    //max-height: 0;
+        overflow: hidden;
+        display: none!important;
+    }
+
+    .hidden-md-up {
+        display: table-cell;
+    }
+
+    .App-wrapper {
+        overflow: visible;
+
+    }
+
+    .hidden-sm {
+        display: none;
+    }
+
+}
+@media (max-width: 481px) {
+    .App-wrapper {
+        overflow: visible;
+
+    }
+
+    .app-max {
+        width: 96%;
+    }
+
+    .app-min {
+        /*width: 96%;*/
+        display: none!important;    }
+
+    #dashboard.side-max {
+        width: 100%;
+    }
+    #facilityContracts .confirmButton{position: relative; top: -165px;}
+    #facilityContracts .cancelButton{position: relative; top: 88px;}
+
+}
+@media (max-width: 320px) {
+
+    .app-max {
+        width: 96%;
+
+    }
+    .app-min {
+        /*width: 96%;*/
+        display: none!important;
+    }
+    .app-min {
+        width: 96%;
+    }
+
+    .side-max {
+        width: 100%
+    }
+
+    .side-min {
+        display: none;
+
+    }
+    .captcha-input input#CaptchaBox.login-input{
+        width: 30%;
+    }
+}
+
+@media (max-width: 672px) {
+    .virtualkey-abso #myBO-K .mykey-box, #myBO-K .mykey-box {
+        padding: 3px;
+    }
+    .virtualkey-abso #myBO-K .mykey-box .key-row .mykeyboard-keys div, #myBO-K .mykey-box .key-row .mykeyboard-keys div {
+        font-size: 10px !important;
+    }
+    .virtualkey-abso #myBO-K .mykey-box .mykeyboard-keys, #myBO-K .mykey-box .mykeyboard-keys {
+        margin-bottom: 2px;
+        margin-right: 2px;
+        max-width: 32.1333px;
+        width: 100%;
+        min-width: 13px;
+    }
+    .virtualkey-abso #myBO-K .mykey-box .mykeyboard-keys.mykey-space, #myBO-K .mykey-box .mykeyboard-keys.mykey-space{
+        max-width: 56.2333px;
+        width: 100%;
+        min-width: 30px;
+    }
+    .virtualkey-abso #myBO-K .mykey-box .mykeyboard-keys.mykey-tab, #myBO-K .mykey-box .mykeyboard-keys.mykey-tab{
+        max-width: 56.25px;
+        width: 100%;
+        min-width: 30px;
+    }
+    .virtualkey-abso #myBO-K .mykey-box .mykeyboard-keys.enter-key, #myBO-K .mykey-box .mykeyboard-keys.enter-key{
+        max-width: 60px;
+        width: 100%;
+        min-width: 30px;
+    }
+    .virtualkey-abso #myBO-K .mykey-box .mykeyboard-keys.mycaps-key, #myBO-K .mykey-box .mykeyboard-keys.mycaps-key{
+        max-width: 64px;
+        width: 100%;
+        min-width: 30px;
+    }
+    .virtualkey-abso #myBO-K .mykey-box .mykeyboard-keys.myLshift, #myBO-K .mykey-box .mykeyboard-keys.myLshift{
+        max-width: 79.5167px;
+        width: 100%;
+        min-width: 30px;
+    }
+    .virtualkey-abso #myBO-K .mykey-box .mykeyboard-keys.myRshift, #myBO-K .mykey-box .mykeyboard-keys.myRshift{
+        max-width: 80.333px;
+        width: 100%;
+        min-width: 30px;
+    }
+    .virtualkey-abso #myBO-K .mykey-box .mykeyboard-keys.myclearKey, #myBO-K .mykey-box .mykeyboard-keys.myclearKey{
+        max-width: 76.3833px;
+        width: 100%;
+        min-width: 30px;
+    }
+    .virtualkey-abso #myBO-K .mykey-box .mykeyboard-keys.myspaceKey, #myBO-K .mykey-box .mykeyboard-keys.myspaceKey{
+        max-width: 421.617px;
+        width: 100%;
+        min-width: 30px;
+    }
+
+    .virtualkey-abso #myBO-K .mykey-box .mykeyboard-keys.mykey-tab, #myBO-K .mykey-box .mykeyboard-keys.mykey-tab,
+    .virtualkey-abso #myBO-K .mykey-box .mykeyboard-keys.mycaps-key, #myBO-K .mykey-box .mykeyboard-keys.mycaps-key,
+    .virtualkey-abso #myBO-K .mykey-box .mykeyboard-keys.myLshift, #myBO-K .mykey-box .mykeyboard-keys.myLshift,
+    .virtualkey-abso #myBO-K .mykey-box .mykeyboard-keys.myclearKey, #myBO-K .mykey-box .mykeyboard-keys.myclearKey {
+        margin-bottom: 2px;
+        margin-right: 2px;
+    }
+
+    .virtualkey-abso #myBO-K .mykey-box .mykeyboard-keys.myRshift, #myBO-K .mykey-box .mykeyboard-keys.myRshift,
+    .virtualkey-abso #myBO-K .mykey-box .mykeyboard-keys.mykey-space, #myBO-K .mykey-box .mykeyboard-keys.mykey-space,
+    .virtualkey-abso #myBO-K .mykey-box .mykeyboard-keys.myenter-key, #myBO-K .mykey-box .mykeyboard-keys.myenter-key,
+    .virtualkey-abso #myBO-K .mykey-box .mykeyboard-keys.myspaceKey, #myBO-K .mykey-box .mykeyboard-keys.myspaceKey {
+        margin-bottom: 2px;
+    }
+}
